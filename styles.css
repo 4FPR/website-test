@@ -1,0 +1,98 @@
+@font-face {
+    font-family: "Creattion";
+    src: url(fonts/Creattion\ Demo.otf);
+}
+@font-face {
+    font-family: "Manier Heavy";
+    src: url(fonts/Manier-Heavy-Trial-BF650bbeaf03121.otf);
+}
+
+@font-face {
+    font-family: "Playfair Semibold";
+    src: url(fonts/PlayfairDisplay-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: "Roboto Regular";
+    src: url(fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Roboto Medium";
+    src: url(fonts/Roboto-Medium.ttf);
+}
+
+body {
+    /*background-color: #2D3142;*/
+    background-color: #d2ba9e;
+    margin-top: 0;
+    margin-right: 3em;
+    margin-left: 3em;
+}
+
+.topbar {
+    display: flex;
+    /* color: #231f1d; */
+    color: #1b1716;
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+.logo {
+    position: absolute;
+    max-width: 42.5%;
+    top: 48px;
+    left: 48px;
+    font-size: 2.7em;
+    line-height: 0.87;
+    font-family: 'Playfair Semibold', serif;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+#name {
+    margin: 0;
+    font-size: 4.6em;
+}
+
+.nav-menu {
+    margin-left: auto;
+    font-family: 'Roboto Medium', sans-serif;
+    font-size: 1em;
+    text-transform: uppercase;
+    /* justify-self: flex-end; */
+}
+
+.menu-item:first-of-type {
+    margin: 0px;
+}
+
+.menu-item {
+    margin-left: 3em;
+    text-decoration: none !important;
+    color: inherit;
+}
+
+.main-content {
+    display: flex;
+    align-items: center;
+}
+
+.main-actions {
+    font-family: 'Roboto Regular', sans-serif;
+    font-size: 1em;
+    align-self: end;
+}
+
+.frontpage-model {
+    height: auto;
+    width: 50%;
+    /* justify-self: flex-end; */
+    margin-left: auto;
+}
+
+.new-page {
+    height: 700px;
+    background-color: #21301F;
+    color: white;
+}
